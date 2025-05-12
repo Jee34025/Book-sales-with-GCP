@@ -84,7 +84,7 @@ def merge_data(transaction_path, conversion_rate_path, output_path):
 
 
 @dag(default_args=default_args, schedule_interval="@once", start_date=days_ago(1), tags=["workshop"])
-def workshop5():
+def booksalesworkshop():
     """
     ทำการ load ข้อมูลเข้า BigQuery ผ่าน GCSToBigQueryOperator ของ Airflow
     """
@@ -112,4 +112,4 @@ def workshop5():
 
     [t1, t2] >> t3 >> t4
 
-ิbooksalesworkshop()
+booksalesworkshop()
