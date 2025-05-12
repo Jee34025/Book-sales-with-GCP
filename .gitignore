@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment config
+.env
+
+# Data
+*.parquet
+data/

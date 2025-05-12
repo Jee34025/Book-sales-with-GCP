@@ -1,0 +1,6 @@
+apache-airflow
+apache-airflow-providers-google
+apache-airflow-providers-mysql
+pandas
+requests
+python-dotenv
