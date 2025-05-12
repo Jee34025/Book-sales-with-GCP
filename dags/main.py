@@ -102,9 +102,9 @@ def booksalesworkshop():
 
     t4 = GCSToBigQueryOperator(
         task_id='gcs_to_bq_example',
-        bucket='asia-southeast1-workshop5-6597ee11-bucket',
-        source_objects=['data/workshop4_output.parquet'],
-        destination_project_dataset_table='ws5.transaction',
+        bucket='gcs-bucket',
+        source_objects=['data/final_output.parquet'],
+        destination_project_dataset_table='DatasetTableName.name',
         source_format='PARQUET',
         write_disposition='WRITE_TRUNCATE',  # หรือ 'WRITE_APPEND' ก็ได้
         
