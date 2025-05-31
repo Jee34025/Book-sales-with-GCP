@@ -48,7 +48,7 @@ This project demonstrates a full data pipeline built using Apache Airflow to ext
 
 ## DAG Overview
 
-![Airflow DAG Flow](https://github.com/Jee34025/Book-sales-with-GCP/images/dag_flow.png)
+![Airflow DAG Flow](images/dag_flow.jpg)
 
     
 
