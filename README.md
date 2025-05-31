@@ -49,6 +49,7 @@ This project demonstrates a full data pipeline built using Apache Airflow to ext
 ## DAG Overview
 
 ![Airflow DAG Flow](images/dag_flow.png)
+
     
 
 
