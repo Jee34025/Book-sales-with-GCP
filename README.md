@@ -46,7 +46,9 @@ This project demonstrates a full data pipeline built using Apache Airflow to ext
 
     - Start the Airflow scheduler and webserver.
 
-   
+## DAG Overview
+
+![Airflow DAG Flow](images/dag_flow.png)
     
 
 
