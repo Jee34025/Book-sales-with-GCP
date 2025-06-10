@@ -35,7 +35,7 @@ def get_data_from_mysql(output_path):
     customer = mysqlserver.get_pandas_df(sql="SELECT * FROM r2de3.customer")
     transaction = mysqlserver.get_pandas_df(sql="SELECT * FROM r2de3.transaction")
 
-    # Merge data จาก 2 DataFrame เหมือนใน workshop1
+    # Merge data จาก 2 DataFrame
     merged_transaction = transaction.merge(product, how="left", left_on="ProductNo", right_on="ProductNo").merge(customer, how="left", left_on="CustomerNo", right_on="CustomerNo")
     
     # Save ไฟล์ parquet ไปที่ output_path ที่รับเข้ามา
